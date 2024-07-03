@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+img {
+  width: 100%;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+section {
+  padding: 50px 0px;
+}
+header {
+  background-image: url(../images/dawn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.342);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+nav h4 {
+  color: white;
+  font-size: 24px;
+}
+
+nav h4 span {
+  font-weight: 150;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 0 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 600;
+}
+
+.banner {
+  padding: 200px 0 150px;
+  text-align: center;
+  color: white;
+}
+.banner h3 {
+  font-style: italic;
+  margin: 0;
+}
+.banner span {
+  display: inline-block;
+  height: 5px;
+  width: 160px;
+  background-color: rgb(168, 10, 10);
+  border-radius: 6px;
+  transition: all 0.3s linear;
+}
+
+.banner span:hover {
+  background-color: rgba(16, 16, 73, 0.753);
+  width: 200px;
+}
+.banner h1 {
+}
+.banner button {
+  background: rgb(168, 10, 10);
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  border: 2px solid rgb(126, 13, 13);
+  border-radius: 30px;
+  transition: all 0.3s linear;
+}
+
+.banner button:hover {
+  background-color: rgba(16, 16, 73, 0.753);
+  color: white;
+  border: 2px solid rgb(16, 16, 73);
+  padding: 16px 31px;
+}
+
+/* UPCOMING EVENTS */
+.event-main {
+  text-align: center;
+}
+.event-main h2 {
+  margin: 0;
+  font-size: 40px;
+}
+.event-main span {
+  display: inline-block;
+  height: 5px;
+  width: 160px;
+  background-color: rgb(168, 10, 10);
+  border-radius: 6px;
+  transition: all 0.3s linear;
+  margin: 10px 0px 50px 0px;
+}
+.event {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.event-box {
+  width: 50%;
+  margin: 10px;
+}
+.event-box img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 12.95px 12.95px 2.6px;
+}
+.event-box h4 {
+  font-size: 20px;
+  margin: 25px 0 25px 0;
+}
+.event-box p {
+}
+.event-box a {
+  color: red;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+/* EXPLORE THE WORLD */
+.explore-section {
+  background-image: url(../images/father.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(5, 5, 48, 0.514);
+  color: white;
+}
+.explore-main {
+  display: flex;
+  padding: 50px 0;
+}
+.explore {
+  width: 50%;
+}
+.explore h1 {
+  font-size: 70px;
+}
+.explore p {
+}
+.explore a {
+}
